@@ -1,0 +1,21 @@
+title: alisilsan's blog
+description: 네트워크, AWS, 장애 대응을 공부하며 기록하는 블로그
+url: "https://alisilsan.github.io"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+
+theme: minima
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+exclude:
+  - README.md
